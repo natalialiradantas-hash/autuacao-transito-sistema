@@ -28,7 +28,6 @@ Cada autuação é vinculada a um agente responsável pelo registro.
 
 ## Script SQL
 
-O script SQL completo está disponível no arquivo [`banco_autuacao.sql`](./banco_autuacao.sql), contendo:
 - Criação do banco de dados `autuacao_transito`
 - Criação das tabelas `agente` e `autuacao`
 - Inserção de dados de teste
