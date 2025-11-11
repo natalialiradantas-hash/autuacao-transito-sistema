@@ -1,4 +1,4 @@
-# 🛑 Autuação de Trânsito Informatizada – Banco de Dados
+# Autuação de Trânsito Informatizada – Banco de Dados
 
 **Autora:** Natália Lira Dantas de Paula  
 **Curso:** Tecnologia da Informação – UFMS Digital  
@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 
 Este projeto faz parte do *Projeto Integrador I* e tem como objetivo desenvolver o **modelo de banco de dados** do sistema **Autuação de Trânsito Informatizada**, aplicado à Guarda Civil Municipal de Capela do Alto/SP.  
 
@@ -14,19 +14,19 @@ O sistema visa informatizar o processo de autuação de trânsito, permitindo qu
 
 ---
 
-## 🧩 Estrutura do Banco de Dados
+## Estrutura do Banco de Dados
 
 O banco é composto por duas tabelas principais, relacionadas entre si:
 
 - **agente** → Armazena os dados dos guardas municipais.  
 - **autuacao** → Registra as infrações de trânsito aplicadas.
 
-### 🔗 Relacionamento
+### Relacionamento
 Cada autuação é vinculada a um agente responsável pelo registro.
 
 ---
 
-## 🗄️ Script SQL
+## Script SQL
 
 O script SQL completo está disponível no arquivo [`banco_autuacao.sql`](./banco_autuacao.sql), contendo:
 - Criação do banco de dados `autuacao_transito`
@@ -34,12 +34,3 @@ O script SQL completo está disponível no arquivo [`banco_autuacao.sql`](./banc
 - Inserção de dados de teste
 - Relacionamento entre as tabelas (chave estrangeira)
 
----
-
-## ⚙️ Como executar
-
-1. Abra o **MySQL Workbench** ou terminal.
-2. Copie e execute o conteúdo do arquivo `banco_autuacao.sql`.
-3. Confirme a criação das tabelas com:
-   ```sql
-   SHOW TABLES;
